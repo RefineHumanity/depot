@@ -1,4 +1,10 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+#Fixtures are structured as name: followed by indented key value pairs
+
+#Note that rails already loads the defaults here (one and two) after generation
+#but you can specify in ProductTest the specific fixtures to load
+#.. That is, using fixtures :products would cause products.yml to be loaded
+#into the database for the tests
 
 one:
   title: MyString
@@ -11,3 +17,13 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+
+ruby:
+  title:     Programming Ruby 1.9
+  description: 
+    Ruby is the fastest growing and most exciting dynamic
+    language out there. If you need to get working programs
+    delivered fast, you should add Ruby to your toolbox.
+  price:      49.50
+  image_url:  ruby.png
+
